@@ -77,8 +77,7 @@ while running:
         if result is not None:
             is_logged_in = result[5]
             qr_is_scanned = True
-            print(result)
-
+            
             if is_logged_in == 1:
                 my_cursor.execute(f"UPDATE students SET logged_in = False WHERE student_id = {output[0]};")
                 cv2.putText(frame, 'Scanned!', (250, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0),
