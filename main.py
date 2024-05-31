@@ -83,7 +83,7 @@ while running:
                 cv2.putText(frame, 'Scanned!', (250, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0),
                             2)
                 cv2.putText(frame, f"Logging In:", (150, 170), cv2.FONT_HERSHEY_SIMPLEX,
-                            2, (0, 255, 0), 5)
+                            2, (0, 255, 0), 3)
                 cv2.putText(frame, f"{result[1]} {result[2]}", (150, 290), cv2.FONT_HERSHEY_SIMPLEX,
                             3, (0, 255, 0), 5)
 
